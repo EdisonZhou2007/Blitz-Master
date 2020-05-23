@@ -177,11 +177,9 @@ ideologies = {
 		
 		types = {
 		
-			anarcho-communism = {
+			anarchism_ideology = {
 			}
-			
-			anarcho-collectivism = {
-			}
+
 		}
 		
 		dynamic_faction_names = {

@@ -24,7 +24,7 @@
  trotskyism_ideology:0 "Trotskyism"
  trotskyism_ideology_desc:0 "Believing that the dictatorship of the communist party can lead to a dismantling of the revolution, Trotskyism supports the founding a vanguard party of the proletariat and a dictatorship of the proletariat class based on mass democracy to achieve world revolution."
  marxism:0 "Marxism"
- marxism_desc:0 ""
+ marxism_desc:0 "Beleiving that a dictatorship of the proloteriat led by a party of communist intellectuals is the best way to undergo the revolution, Traditional Marxism emphasises the joint importance of the party and proloteriat together, in order to implement communism on a global scale naturally."
  syndicalism:0 "Syndicalism"
  syndicalism_desc:0 "Believing that a dictatorship led by a single vanguard party can lead to the creation of another elitist class, Syndicalism, supports the premise that the revolution should be led by many mass organisations, unions and groups led by the people in mass democracy."
 
@@ -53,10 +53,8 @@
  anarchism:0 "Anarchist"
  anarchism_noun:0 "Anarchism"
  anarchism_desc:0 "Anarchist Collective"
- anarcho-communism:0 "Anarcho-Communism"
- anarcho-communism_desc:0 ""
- anarcho-collectivism:0 "Anarcho-Collectivism"
- anarcho-collectivism_desc:0 ""
+ anarchism_ideology:0 "Anarchism"
+ anarcho_ideology_desc:0 ""
 
  reactionary:0 "Reactionary"
  reactionary_noun:0 "Reactionism"
