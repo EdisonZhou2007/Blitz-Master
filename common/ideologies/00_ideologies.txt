@@ -78,6 +78,9 @@ ideologies = {
 			
 			trotskyism = {
 			}
+
+			syndicalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -88,7 +91,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 145 0 0 }
+		color = { 200 0 0 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -179,9 +182,6 @@ ideologies = {
 			
 			anarcho-collectivism = {
 			}
-			
-			anarcho-syndicalism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -245,7 +245,6 @@ ideologies = {
 		}
 		
 		color = { 124 124 124 }
-		#purple?
 		
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
@@ -299,8 +298,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
-		#purple?
+		color = { 150 0 150 }
 		
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
