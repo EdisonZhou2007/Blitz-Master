@@ -2,13 +2,13 @@
 state={
 	id=42
 	name="STATE_42"		#Moselland
-	manpower = 1227739
+	manpower = 1627739
 	resources={
-		steel=27 # was: 100
+		steel=40 # was: 100
 		aluminium=14 # was: 24
 	}
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = GER
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		563 3423 3558 11547 
+		563 3423 3558 11547 9575 11560 
 	}
 	
 	

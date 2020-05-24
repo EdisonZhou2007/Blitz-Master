@@ -2,19 +2,16 @@
 state={
 	id=66
 	name="STATE_66"
-	manpower = 3252726
+	manpower = 1752726
 	resources={
-		steel=50 # was: 110
-		aluminium=16 # was: 38
+		steel=36 # was: 110
+		aluminium=12 # was: 38
 	}
 	
-	state_category = large_city
+	state_category = town
 
 	history={
 		owner = GER
-		victory_points = {
-			9570 10 
-		}
 		#victory_points = {
 		#	552 1
 		#}
@@ -31,13 +28,13 @@ state={
 		1939.1.1 = {
 			buildings = {
 				air_base = 10
-				arms_factory = 3
-				industrial_complex = 3
+				arms_factory = 2
+				industrial_complex = 2
 			}
 		}
 	}
 
 	provinces={
-		552 3283 3438 3485 3510 3545 6462 6534 6595 9470 9570 11517 3572 
+		552 3438 6534 6595 11517 3572 
 	}
 }

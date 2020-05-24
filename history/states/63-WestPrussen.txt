@@ -2,13 +2,12 @@
 state={
 	id=63
 	name="STATE_63"
-	manpower = 1503623
+	manpower = 1003623
 	resources={
 		steel=23 # was: 36
-		aluminium=8 # was: 12
 	}
 	
-	state_category = large_city
+	state_category = town
 
 	history={
 		owner = GER
@@ -17,7 +16,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
 			11372 = {
 				naval_base = 1
 			}
@@ -27,6 +25,6 @@ state={
 	}
 
 	provinces={
-		6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 537 6236 9387 
+		9252 9277 9306 9361 11260 11288 11316 11343 11372 9387 
 	}
 }

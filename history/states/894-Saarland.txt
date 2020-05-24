@@ -2,12 +2,12 @@
 state={
 	id=894
 	name="STATE_894"
-	manpower =927739
+	manpower =727739
 	resources={
-		steel=18 # was: 100
+		steel=5 # was: 100
 	}
 	
-	state_category = rural
+	state_category = pastoral
 
 	history={
 		owner = GER
@@ -35,7 +35,7 @@ state={
 	}
 
 	provinces={
-		9575 11531 
+		11531 
 	}
 	
 	
