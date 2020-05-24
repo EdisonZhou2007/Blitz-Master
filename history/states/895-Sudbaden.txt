@@ -5,7 +5,7 @@ state={
 		#
 	}
 
-	state_category = enclave
+	state_category = pastoral
 	history={
 		owner = GER
 		#victory_points = {
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		3679 
+		3679 3692 13247 
 	}
 	manpower=157685
 	buildings_max_level_factor=1.000

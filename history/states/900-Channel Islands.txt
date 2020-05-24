@@ -1,0 +1,25 @@
+ state={
+	id=900
+	name="STATE_900"
+	resources={
+		#
+	}
+
+	state_category = tiny_island
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = ENG
+
+
+	}
+
+	provinces={
+		13250 
+	}
+	manpower=101678
+	buildings_max_level_factor=1.000
+}
