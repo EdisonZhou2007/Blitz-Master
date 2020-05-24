@@ -1,0 +1,30 @@
+
+state={
+	id=890
+	name="STATE_890"
+	manpower = 1508159
+
+	state_category = town
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		victory_points = {
+			11544 10 
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+			}
+		}
+	}
+
+	provinces={
+		561 9557 9572 11529 9416 11544 6540 
+	}
+}

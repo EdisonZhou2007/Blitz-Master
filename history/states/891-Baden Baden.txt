@@ -1,0 +1,46 @@
+state={
+	id=891
+	name="STATE_891"
+	resources={
+		aluminium=4 # was: 10.000
+	}
+
+	state_category = rural
+	history={
+		owner = GER
+		#victory_points = {
+		#	3530 10
+		#}
+		#victory_points = {
+		#	11640 1
+		#}
+		#victory_points = {
+		#	6712 3
+		#}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 4
+				industrial_complex = 2
+			}
+		}
+		set_demilitarized_zone = yes
+	
+	
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+
+	}
+
+	provinces={
+		3679 11640 6712 6542 3530 6568 6581 
+	}
+	manpower=1586854
+	buildings_max_level_factor=1.000
+}

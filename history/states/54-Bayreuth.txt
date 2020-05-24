@@ -1,0 +1,26 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 1008159
+
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+			}
+		}
+	}
+
+	provinces={
+		3474 6421 6594 11404 11417 13116 
+	}
+}

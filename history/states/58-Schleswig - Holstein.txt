@@ -1,0 +1,29 @@
+state= {
+	id=58
+	name="STATE_58"	#Holstein
+	manpower = 648150 
+	state_category = town
+	
+	history=
+	{
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 2
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				anti_air_building = 3
+				dockyard = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces= {
+		3368 6257 9320 11331 
+ 	}
+}

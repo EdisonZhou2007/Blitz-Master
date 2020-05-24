@@ -1,0 +1,29 @@
+
+state={
+	id=878
+	name="STATE_878"
+	manpower = 124417
+	resources={
+		#
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = GER
+		victory_points = {
+			6282 5
+		}
+		buildings = {
+			infrastructure = 6
+			6282 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		6282
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=884
+	name="STATE_884"
+	manpower = 905029
+	buildings_max_level_factor = 1
+
+	state_category = rural
+
+
+	history={
+		owner = GER
+		victory_points = {
+			3522 5 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 5
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces={
+		11359 3522 6487 9560 11468 9375 9238
+	}
+}
