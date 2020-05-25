@@ -1,7 +1,7 @@
 
 state={
-	id=64
-	name="STATE_64"
+	id=846
+	name="STATE_846"
 	manpower = 1765029
 	buildings_max_level_factor = 1
 
