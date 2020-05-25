@@ -56,9 +56,9 @@
  anarchism_ideology:0 "Anarchism"
  anarchism_ideology_desc:0 "Believing that the idea of a state naturally leads to the exploitation of its people and oppression, Anarchism praises the concept of a stateless society, where induvidual communes collectivise and share communally, with no leaders or parties."
 
- reactionary:0 "Reactionary"
- reactionary_noun:0 "Reactionism"
- reactionary_desc:0 "Reactionary Autocracy"
+ reactionary:0 "Authoritarian"
+ reactionary_noun:0 "Authoritarinism"
+ reactionary_desc:0 "Authoritarian Regime"
  military_government:0 "Military Government"
  military_government_desc:0 "Believing that the political class of their nation to be inneffective at defending their nation and its interests, or disgruntled by other means, Military Governments are governments set up by Military Juntas or councils in order to run the country seperate from its artificial political class."
  dictatorship:0 "Dictatorship"
@@ -73,18 +73,33 @@
  theocracy_desc:0 "Believing that the church and religion should not only guide people through their lives morally and socially, but also guide the state politically and practically, Theocracies emphasise riggid loyalty and devotion to the state religion and the church."
  oligarchy:0 "Oligarchy"
  oligarchy_desc:0 "Believing that society can bets be ruled by a group of highly powerful and influential induviduals, Oligarchs want to bring balance to a new nation but through usurping vast power, money and influence for their own personal gain."
- absolute_monarchy:0 "Absolute Monarchy"
+ absolute_monarchy:0 "Monarchy"
  absolute_monarchy_desc:0 "Believing their monarch has been appointed by god or at least has some divine power, Absolute Monarchies are autocratically run by one single ruling monarch, who have single power control over church, party, state and all social order itself."
 
 #######################################################################
 
+ MNC_fascism_party:0 "Partito Nazionale Fascista"
+ MNC_communism_party:0 "Partito Comunista Monaco"
+ MNC_democratic_party:0 "Rally & Issues"
+ MNC_monarchy_party:0 "Rally for the Monegasque Family"
+
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"
- GER_democratic_party:1 "Zentrum"
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_democratic_party:0 "Zentrum"
+ GER_democratic_party_long:0 "Deutsche Zentrumspartei"
+ GER_monarchy_party:0 "DNVP"
+ GER_monarchy_party_long:0 "Deutschnationale Volkspartei"
+ GER_reactionary_party:0 "DNP"
+ GER_reactionary_party_long:0 "Duetche National Partei"
+ GER_anarchism_party:0 "FApD"
+ GER_anarchism_party_long:0 "Freie Arbeiterpartei Deutschlands"
+ 
  GER_neutrality_party_civil_war:0 "Militärregierung"
  GER_neutrality_party_kaiserreich:0 "DNVP"
  GER_neutrality_party_kaiserreich_long:0 "Deutschnationale Volkspartei"
+
  POL_fascism_party:0 "ONR-Falanga"
  POL_fascism_party_long:0 "Oboz Narodowo Radykalny-Falanga"
  POL_communism_party:1 "KPP"

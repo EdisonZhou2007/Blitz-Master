@@ -2,7 +2,7 @@ state={
 	id=847
 	name="STATE_847"
 	state_category=city
-	manpower=1116800
+	manpower=1616800
 	history={
 		owner = BEL
 		add_core_of = BEL
@@ -16,7 +16,7 @@ state={
 
 
 	provinces={
-		6537 9444 
+		6537 9444 9418 11407 
 	}
 	buildings_max_level_factor=1.000
 }
