@@ -272,7 +272,6 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
-}
 
 	monarchy = {
 	
@@ -296,7 +295,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 150 0 150 }
+		color = { 215 0 215 }
 		
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1

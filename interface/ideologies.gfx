@@ -1,0 +1,7 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_ideology_fascism_group.tga"
+		texturefile = "gfx//interface//ideologies//fascism_group.tga"
+	}
+}
