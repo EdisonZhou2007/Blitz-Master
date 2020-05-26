@@ -1,7 +1,27 @@
 spriteTypes = {
 
 spriteType = {
-		name = "GFX_ideology_fascism_group.tga"
-		texturefile = "gfx//interface//ideologies//fascism_group.tga"
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx//interface//ideologies//blitz_fascism_group.tga"
+	}
+spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx//interface//ideologies//blitz_communism_group.tga"
+	}
+spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx//interface//ideologies//blitz_democratic_group.tga"
+	}
+spriteType = {
+		name = "GFX_ideology_anarchism_group"
+		texturefile = "gfx//interface//ideologies//blitz_anarchism_group.tga"
+	}
+spriteType = {
+		name = "GFX_ideology_reactionary_group"
+		texturefile = "gfx//interface//ideologies//blitz_reactionary_group.tga"
+	}
+spriteType = {
+		name = "GFX_ideology_monarchy_group"
+		texturefile = "gfx//interface//ideologies//blitz_monarchy_group.tga"
 	}
 }
