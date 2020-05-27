@@ -145,23 +145,23 @@ SPR_civil_war = {
 }
 
 GER_civil_war = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 0 49 83 }
+	color_ui = rgb { 0 49 83 }
 }
 
 GER_provisional_gvt = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 0 60 102 }
+	color_ui = rgb { 0 60 102 }
 }
 
 GER_german_empire = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 0 60 102 }
+	color_ui = rgb { 0 60 102 }
 }
 
 GER_german_monarchy = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 115 115 115 }
+	color = rgb { 0 60 102 }
+	color_ui = rgb { 0 60 102 }
 }
 
 CHI_warlord_leader = {

@@ -296,9 +296,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	democratic = 24
+	fascism = 55
+	communism = 12
+	monarchy = 8
+	reactionary = 1
 }
 
 create_faction = Axis

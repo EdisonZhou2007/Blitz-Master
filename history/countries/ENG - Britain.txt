@@ -377,6 +377,7 @@ create_country_leader = {
 	ideology = conservatism
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+		#why?
 	}
 }
 
@@ -384,7 +385,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Stanley Baldwin"
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	picture = "Portrait_England_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
 	ideology = liberalism
 	traits = {

@@ -1,14 +1,13 @@
-﻿capital = 446
+﻿capital = 298
 
-oob = "EGY_1936"
+oob = "LIB_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
 }
 
-set_convoys = 20
+set_convoys = 10
 
 1939.1.1 = {
 
@@ -20,21 +19,20 @@ set_convoys = 20
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
+	complete_national_focus = flexible_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
+	oob = "LIB_1939"
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
 		#doctrines
 		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
+		
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
 		fleet_in_being = 1
 		battlefleet_concentration = 1
 		convoy_sailing = 1
@@ -44,7 +42,6 @@ set_convoys = 20
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
-		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -58,56 +55,32 @@ set_convoys = 20
 	}
 }
 
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = democratic
+	last_election = "1931.1.1"
+	election_frequency = 96
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
-	fascism = 20
-	communism = 0
-	neutrality = 50
+	democratic = 100
 }
 
 create_country_leader = {
-	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "Portrait_EGY_Farouk_I.dds"
-	ideology = absolute_monarchy
+	name = "Edwin Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "Portrait_LIB_Edwin_Barclay.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Ahmed Husayn"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aly Maher Pasha"
-	desc = ""
-	picture = "Portrait_Egypt_Aly_Maher_Pasha.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hosni al-Arabi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	ideology = leninism
-	traits = {
-		#
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1939.1.1"
+		election_frequency = 48
+		elections_allowed = yes
 	}
 }
