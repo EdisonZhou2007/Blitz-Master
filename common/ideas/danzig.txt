@@ -1,0 +1,40 @@
+ideas = {
+
+	country = {
+		police_state = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				intelligence_agency_defense = 1
+			}
+		}
+
+		garunteed_polish_language = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				autonomy_gain = -0.5
+			}
+		}
+	}
+}

@@ -23,6 +23,9 @@ set_technology = {
 	complete_national_focus = production_effort
 
 	add_ideas = {
+		#spirits
+		garunteed_polish_language
+		police_state
 		#laws
 		disarmed_nation
 		partial_economic_mobilisation
@@ -69,31 +72,43 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 19
-	fascism = 44
-	communism = 1
-	neutrality = 36
+	democratic = 22
+	fascism = 67
+	communism = 3
+	reactionary = 4
+	monarchy = 4
 }
 
 give_military_access = POL
 
 create_country_leader = {
-	name = "Arthur Karl Greiser"
-	desc = "POLITICS_ARTHUR_KARL_GREISER_DESC"
-	picture = "Portrait_Danzig_Arthur_Greiser.dds"
+	name = "Albert Forster"
+	desc = "POLITICS_ALBERT_FORSTER_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Carl Jacob Burckhardt"
+	name = "Arthur Greiser"
+	desc = "POLITICS_ARTHUR_KARL_GREISER_DESC"
+	picture = "Portrait_Danzig_Arthur_Greiser.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carl Burckhardt"
 	desc = "POLITICS_CARL_BURCKHARDT_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology =stalinism
+	ideology = stalinism
 	traits = {
 		#
 	}
