@@ -2,8 +2,8 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 838108
-	state_category = rural
+	manpower = 1238108
+	state_category = town
 
 	history={
 		victory_points = {
@@ -19,9 +19,10 @@ state={
 			infrastructure = 6
 		}
 		add_core_of = GER
+		add_core_of = PRE
 	}
 
 	provinces={
-		266 6375 9327 9372 9398 11245 11386 
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
 }

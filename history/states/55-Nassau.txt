@@ -2,35 +2,33 @@
 state={
 	id=55
 	name="STATE_55"
-	manpower = 1998235
-
-	state_category = town
 
 	history={
 		owner = GER
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
+			industrial_complex = 1
+
 		}
 		victory_points = {
-			6488 20.0 
+			564 3 
 		}
 		add_core_of = GER
-
-		set_demilitarized_zone = yes
-		
-		1936.3.7 = {
-			set_demilitarized_zone = no
-		}
-
+		add_core_of = PRE
 		1939.1.1 = {
 			buildings = {
-				arms_factory = 3
+				air_base = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		589 3574 6444 6488 9486  
+		564 3397 3524 6549 9524 9547 11445 11533 
 	}
+	manpower=2294232
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }
