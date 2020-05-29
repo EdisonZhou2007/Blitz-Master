@@ -1,0 +1,31 @@
+guiTypes = {
+		
+	containerWindowType = {
+		name = "money_container"
+		position = { x = 1010 y = 3 }
+		
+		iconType ={
+			name ="money_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=-45 y=1 }
+		}
+		
+		iconType = {
+			name ="money"
+			spriteType = "GFX_money"
+			position = { x= -45 y = -2 }
+		}
+
+		instantTextBoxType = {
+			name ="money_text"
+			position = { x= -21 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?money_view]"
+			format = center
+			maxWidth = 65
+			maxHeight = 24
+			fixedsize = yes
+		}
+		
+	}
+}
