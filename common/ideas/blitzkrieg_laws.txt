@@ -1,0 +1,553 @@
+ideas = {
+
+	laws_press = { 
+	
+		law = yes
+		
+
+		all_press = {
+
+			modifier = {
+				stability_factor = 0.11
+				drift_defence_factor = -0.02
+				political_power_factor = 0.04
+			}
+	
+			cost = 150
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+				   	
+				modifier = {
+					has_government = democrat
+					factor = 1.5
+				}
+			}
+			
+		}
+		
+		free_press = {
+
+			modifier = {
+				stability_factor = 0.08
+				drift_defence_factor = 0.01
+				political_power_factor = -0.02
+			}
+	
+			cost = 125
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+				   	
+				modifier = {
+					has_government = democrat
+					factor = 1.5
+				}
+			}
+			
+		}
+
+		official_press = {
+
+			modifier = {
+				stability_factor = -0.02
+				drift_defence_factor = 0.05
+				political_power_factor = 0.05
+			}
+	
+			cost = 125
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+				   	
+				modifier = {
+					has_government = democrat
+					factor = 1.5
+				}
+			}
+			
+		}
+
+		controlled_press = {
+
+			cost = 100
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.05
+				drift_defence_factor = 0.07
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = anarchism
+					factor = 2
+				}
+   			}
+		}
+		
+		censored_press = {
+			
+			cost = 125
+
+			modifier = {
+				stability_factor = 0.1
+				drift_defence_factor = -0.1
+				political_power_factor = -0.5
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+	}
+
+	laws_police = { 
+	
+		law = yes
+		
+
+		police_enforcement = {
+
+			modifier = {
+				stability_factor = 0.5
+				resistance_damage_to_garrison = -0.01
+			}
+	
+			cost = 150
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+				   	
+				modifier = {
+					has_government = democrat
+					factor = 1.5
+				}
+			}
+			
+		}
+		
+		gendarmerie_enforcement = {
+
+			cost = 150
+			
+			modifier = {
+				stability_factor = 0.08
+				resistance_damage_to_garrison = -0.2
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = democrat
+					factor = 2
+				}
+   			}
+		}
+		
+		security_enforcement = {
+			
+			cost = 125
+
+			modifier = {
+				stability_factor = 0.1
+				resistance_damage_to_garrison = 0.03
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+
+		secret_police_enforcement = {
+			
+			cost = 100
+
+			modifier = {
+				stability_factor = -0.01
+				drift_defence_factor = 0.1
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+	}
+
+	laws_conscription = { 
+	
+		law = yes
+		
+
+		no_draft = {
+
+			modifier = {
+				conscription = 0.01
+			}
+	
+			cost = 100
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		volunteer_draft = {
+
+			cost = 125
+			
+			modifier = {
+				conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = democrat
+					factor = 2
+				}
+   			}
+		}
+		
+		limited_draft = {
+			
+			cost = 125
+
+			modifier = {
+				conscription = 0.1
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				modifier = {
+					has_government = democrat
+					factor = 2
+				}
+   			}
+		}
+
+		extensive_draft = {
+
+			cost = 125
+			
+			modifier = {
+				conscription = 0.15
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = communism
+					factor = 2
+				}
+   			}
+		}
+
+		service_by_requirement_draft = {
+
+			cost = 150
+			
+			modifier = {
+				conscription = 0.2
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = -0.3
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = fascism
+					factor = 1
+				}
+   			}
+		}
+
+		all_adults_serve_draft = {
+
+			cost = 150
+			
+			modifier = {
+				conscription = 0.3
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = fascism
+					factor = 1
+				}
+   			}
+		}
+
+		scraping_the_barrel_draft = {
+
+			cost = 100
+			
+			modifier = {
+				conscription = 0.25
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = -0.4
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = fascism
+					factor = 1
+				}
+   			}
+		}
+	}
+
+	laws_education = { 
+	
+		law = yes
+		
+
+		formal_education = {
+
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = 0.15
+				drift_defence_factor = 0.02
+				industrial_capacity_factory = -0.01
+			}
+	
+			cost = 150
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 2	
+			}
+			
+		}
+		
+		non_formal_education = {
+
+			cost = 125
+			
+			modifier = {
+				political_power_gain = 0.01
+				consumer_goods_factor = 0.1
+				drift_defence_factor = 0.5
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		informal_education = {
+			
+			cost = 100
+
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = 0.25
+				drift_defence_factor = -0.15
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	laws_rights = { 
+	
+		law = yes
+		
+
+		individual_rights = {
+
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = -0.04
+				command_power_gain = 0.2
+				industrial_capacity_factory = 0.01
+				industrial_capacity_dockyard = 0.01
+				production_speed_buildings_factor = -0.2
+			}
+	
+			cost = 150
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+				   	
+				modifier = {
+					has_government = democrat
+					factor = 2
+				}
+			}
+			
+		}
+		
+		controlled_rights = {
+
+			cost = 125
+			
+			modifier = {
+				stability_factor = -0.02
+				command_power_gain = 0.05
+				drift_defence_factor = 0.1
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.04
+				production_speed_buildings_factor = -0.5
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+
+				modifier = {
+					has_government = anarchism
+					factor = 2
+				}
+   			}
+		}
+		
+		order_above_all_rights = {
+			
+			cost = 125
+
+			modifier = {
+				stability_factor = -0.05
+				command_power_gain = 0.01
+				drift_defence_factor = 0.08
+				industrial_capacity_factory = -0.01
+				industrial_capacity_dockyard = -0.02
+				production_speed_buildings_factor = 0.04
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				modifier = {
+					has_government = fascism
+					factor = 2
+				}
+   			}
+		}
+	}
+
+	laws_health = { 
+	
+		law = yes
+		
+
+		bevedridge_health = {
+
+			modifier = {
+				stability_weekly = 0.01
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.1
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+		}
+		
+		bismarck_health = {
+
+			cost = 125
+			
+			modifier = {
+				stability_weekly = 0.02
+				consumer_goods_factor = -0.05
+				political_power_gain = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+				}
+		}
+		
+		public_insurance_health = {
+			
+			cost = 125
+
+			modifier = {
+				stability_weekly = 0.02
+				consumer_goods_factor = 0.1
+				political_power_gain = -0.05
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1.5
+				}
+		}
+
+		private_insurance_health = {
+			
+			cost = 125
+
+			modifier = {
+				stability_weekly = -0.02
+				consumer_goods_factor = 0.02
+				political_power_gain = 0.03
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+}
