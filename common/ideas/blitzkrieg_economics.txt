@@ -1,0 +1,433 @@
+##Economy mechanics in process##
+
+ideas = {
+
+	economics_tax = { 
+	
+		law = yes
+		
+
+		progressive_tax = {
+
+			modifier = {
+				#conscription = 0.01
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		regressive_tax = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		proportional_tax = {
+			
+			cost = 125
+
+			modifier = {
+				#conscription = 0.025
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		flat_tax = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		income_tax = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	economics_tariffs = { 
+	
+		law = yes
+		
+
+		specific_tariffs = {
+
+			modifier = {
+				#conscription = 0.01
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		ad_valorem_tariffs = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		compound_tariff = {
+			
+			cost = 125
+
+			modifier = {
+				#conscription = 0.025
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		sliding_tariff = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	economics_work = { 
+	
+		law = yes
+		
+
+		civil_rights = {
+
+			modifier = {
+				#conscription = 0.01
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		family_rights = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		worker_compensation = {
+			
+			cost = 125
+
+			modifier = {
+				#conscription = 0.025
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		no_regulations = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		controlled_workplace = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	economics_welfare = { 
+	
+		law = yes
+		
+
+		tanf_welfare = {
+
+			modifier = {
+				#conscription = 0.01
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		snap_welfare = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		liheap_welfare = {
+			
+			cost = 125
+
+			modifier = {
+				#conscription = 0.025
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		housing_welfare = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		supplementary_security_welfare = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	economics_trade = { 
+	
+		law = yes
+		
+
+		freenational_trade = {
+
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				civilian_intel_to_others = 40.0
+				navy_intel_to_others = 20.0
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		export_trade = {
+
+			cost = 125
+			
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+				civilian_intel_to_others = 20.0
+				navy_intel_to_others = 10.0
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		limited_trade = {
+			
+			cost = 125
+
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+				civilian_intel_to_others = 10.0
+				navy_intel_to_others = 5
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		closed_trade = {
+
+			cost = 125
+			
+			modifier = {
+				min_export = 0
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}
+
+	economics_corruption = { 
+	
+		law = yes
+		
+
+		no_corruption = {
+
+			modifier = {
+				#conscription = 0.01
+			}
+	
+			cost = 50
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+				factor = 0.5	
+			}
+			
+		}
+		
+		controlled_politicians = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.02
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		bribery_corruption = {
+			
+			cost = 125
+
+			modifier = {
+				#conscription = 0.025
+			}
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+
+		control_corruption = {
+
+			cost = 125
+			
+			modifier = {
+				#conscription = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+	}		
+}
