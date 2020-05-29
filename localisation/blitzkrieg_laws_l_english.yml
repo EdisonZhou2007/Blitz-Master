@@ -1,0 +1,83 @@
+﻿l_english:
+
+#Ideas
+ laws:0 "Laws"
+ 
+ laws_press:0 "Press"
+ all_press:0 "All Access"
+ free_press:0 "Free Press"
+ official_press:0 "Offical Press"
+ controlled_press:0 "Controlled Press"
+ censored_press:0 "Censored Press"
+ 
+ laws_police:0 "Focused Law Enforcement"
+ police_enforcement:0 "Police Force"
+ gendarmerie_enforcement:0 "Gendarmerie"
+ security_enforcement:0 "Security Agency"
+ secret_police_enforcement:0 "Secret Police"
+ 
+ laws_conscription:0 "Conscription"
+ no_draft:0 "Disarmed Nation"
+ volunteer_draft:0 "Volunteer Only"
+ limited_draft:0 "Limited Conscription"
+ extensive_draft:0 "Extensive Conscription"
+ service_by_requirement_draft:0 "Service Requirement"
+ all_adults_serve_draft:0 "All Adults Serve"
+ scraping_the_barrel_draft:0 "Scraping the Barrel"
+ 
+ laws_education:0 "Education"
+ formal_education:0 "Formal"
+ non_formal_education:0 "Non-Formal"
+ informal_education:0 "Informal"
+ 
+ laws_rights:0 "Rights"
+ individual_rights:0 "Individual Rights"
+ controlled_rights:0 "Controlled Rights"
+ order_above_all_rights:0 "Order Above All"
+ 
+ laws_health:0 "Health"
+ bevedridge_health:0 "Bevedridge System"
+ bismarck_health:0 "Bismarck Sytem"
+ public_insurance_health:0 "Public Insurance"
+ private_insurance_health:0 "Private Insurance"
+
+ economics:0 "Economics"
+
+ economics_tax:0 "Business Tax"
+ progressive_tax:0 "Progressive"
+ regressive_tax:0 "Regressive"
+ proportional_tax:0 "Proportional"
+ flat_tax:0 "Flat"
+ income_tax:0 "Income"
+
+ economics_tariffs:0 "Tariffs"
+ specific_tariffs:0 "Specific"
+ ad_valorem_tariffs:0 "Ad Valorem"
+ compound_tariff:0 "Compound"
+ sliding_tariff:0 "Sliding"
+ 
+ economics_work:0 "Work Regulations"
+ civil_rights:0 "Civil"
+ family_rights:0 "Family"
+ worker_compensation:0 "Compensation"
+ no_regulations:0 "No Regulations"
+ controlled_workplace:0 "Controlled Workplace"
+ 
+ economics_welfare:0 "Welfare"
+ tanf_welfare:0 "TANF"
+ snap_welfare:0 "SNAP"
+ liheap_welfare:0 "LIHEAP"
+ housing_welfare:0 "Housing"
+ supplementary_security_welfare:0 "Supplementary"
+ 
+ economics_trade:0 "Trade"
+ freenational_trade:0 "Free Trade"
+ export_trade:0 "Export Focus"
+ limited_trade:0 "Limited"
+ closed_trade:0 "Closed"
+ 
+ economics_corruption:0 "Corruption"
+ no_corruption:0 "Stop Corruption"
+ controlled_politicians:0 "Controlled"
+ bribery_corruption:0 "Bribery"
+ control_corruption:0 "Total Control"
