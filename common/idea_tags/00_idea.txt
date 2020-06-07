@@ -26,7 +26,7 @@ idea_categories = {
 	laws = {
 		slot = laws_press
 		slot = laws_police
-		slot = laws_conscription
+		slot = mobilization_laws
 		slot = laws_education
 		slot = laws_rights
 		slot = laws_health
@@ -42,7 +42,7 @@ idea_categories = {
 		slot = economics_tariffs
 		slot = economics_work
 		slot = economics_welfare
-		slot = economics_trade
+		slot = trade_laws
 		slot = economics_corruption
 
 		ledger = civilian
@@ -52,9 +52,9 @@ idea_categories = {
 	}
 
 	advisors = {
-		slot = mobilization_laws
-		slot = trade_laws
 		slot = economy
+		slot = political_advisor
+		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
@@ -109,4 +109,7 @@ slot_ledgers = {
 	
 	mobilization_laws = civilian
 }
-##Special Thanks To The RT56 Team##
+
+##Special Thanks To The RT56 Team for making this possible!
+##Lots of Love
+##Blitzkrieg xx
