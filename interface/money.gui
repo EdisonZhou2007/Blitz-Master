@@ -1,0 +1,35 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "money_container"
+		position = { x=-4 y=-1 }	
+		size = { width=100%% height=100%% }
+
+		iconType ={
+			name ="money_value_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=975 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="money_icon"
+			spriteType = "GFX_money"
+			position = { x= 974 y=3 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name ="money_value"
+			position = { x=992 y=9 }
+			font = "hoi_18mbs"
+			text = "99999"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+
+			pdx_tooltip = "MONEY_TOOLTIP"
+		}
+	}
+}

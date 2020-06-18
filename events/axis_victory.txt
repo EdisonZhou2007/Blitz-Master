@@ -1,0 +1,24 @@
+add_namespace = axis_victory
+
+event = {
+	id = axis_victory.1
+	title = axis_victory.1.t
+	desc = axis_victory.1.desc
+	picture = GFX_report_axis_victory
+	major = yes
+	trigger = {
+		SOV = {
+			has_capitulated = yes
+		}
+		FRA = {
+			has_capitulated = yes
+		}
+		ENG = {
+			has_capitulated = yes
+		}
+	}
+	option = {
+		name = axis_victory.1.a
+		set_global_flag = ww2_axis_victory
+	}
+}

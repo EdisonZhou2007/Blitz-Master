@@ -1,0 +1,7 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_money"
+		texturefile = "gfx/interface/topbar/money.dds"
+		legacy_lazy_load = no
+	}
+}

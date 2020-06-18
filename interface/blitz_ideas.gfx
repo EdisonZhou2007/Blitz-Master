@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_police_state"
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_garunteed_polish_language"
+		texturefile = "gfx/interface/ideas/idea_poland_flag.dds"
+	}	
+}
